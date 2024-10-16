@@ -176,6 +176,7 @@ h3 {
 
 .player {
   margin: auto;
+  position: absolute;
   background-color: #1b1b1b; /* Latar belakang pemutar musik */
   padding: 20px;
   border-radius: 10px;
