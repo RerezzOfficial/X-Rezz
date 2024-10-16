@@ -61,18 +61,20 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 90%;
   padding: 0 10px;
   width: 100%;
   text-align: center;
 }
 h2 {
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  text-align: center;
 }
+
 h1::after {
   content: '';
   width: 80px;
@@ -129,3 +131,121 @@ p {
     height: 4px;
   }
 }
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  padding: 25px;
+  justify-content: center;
+}
+.contac {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+}
+.contac img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.contac h2 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.contac button {
+  background-color:  rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 120;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+/* MUSIC */
+
+
+.player {
+  margin: auto;
+  background-color: #1b1b1b; /* Latar belakang pemutar musik */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.controls button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.controls button:hover {
+  color: #1DB954; /* Warna aksen Spotify */
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.song-list li {
+  padding: 10px;
+  background-color: #444;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.song-list li:hover {
+  background-color: #555;
+}
+
+.lyrics {
+  margin-top: 20px;
+  text-align: center;
+  background: #282828;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#currentSong {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  }
