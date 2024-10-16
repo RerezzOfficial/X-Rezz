@@ -61,7 +61,7 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 90%;
+  top: 10%;
   padding: 0 10px;
   width: 100%;
   text-align: center;
@@ -176,8 +176,7 @@ h3 {
 
 .player {
   margin: auto;
-  position: absolute;
-  background-color: #1b1b1b; /* Latar belakang pemutar musik */
+  background-color: #747474; /* Latar belakang pemutar musik */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -249,4 +248,4 @@ audio {
 #currentSong {
   font-size: 1.5em;
   margin-bottom: 10px;
-  }
+}
