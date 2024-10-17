@@ -250,3 +250,49 @@ audio {
   font-size: 1.5em;
   margin-bottom: 10px;
 }
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    position: fixed; /* Memastikan footer selalu berada di bagian bawah */
+    bottom: 0;
+    width: 100%; /* Memastikan lebar full footer */
+    background-color: transparent; /* Warna latar belakang footer */
+    box-shadow: white; /* Bayangan di atas footer */
+}
+
+.bottom-menu {
+    display: flex; /* Menggunakan flexbox untuk menu */
+    justify-content: space-around; /* Menyebarkan item menu secara merata */
+    padding: 20px 0; /* Padding vertikal */
+}
+
+.bottom-menu ul {
+    list-style-type: none; /* Menghilangkan bullet pada list */
+    margin: 0; /* Menghilangkan margin */
+    padding: 0; /* Menghilangkan padding */
+    display: flex; /* Menyusun item secara horizontal */
+}
+
+.bottom-menu li {
+    flex: 1; /* Setiap item menu mendapatkan lebar yang sama */
+    text-align: center; /* Memusatkan teks di dalam setiap item */
+}
+
+.bottom-menu a {
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+    color: #fff; /* Warna teks */
+}
+
+.bottom-menu i {
+    width: 24px; /* Ukuran ikon */
+    height: 24px; /* Ukuran ikon */
+    display: block; /* Membuat gambar menjadi block element */
+    margin: 0 auto 5px; /* Memusatkan gambar dan memberikan margin bawah */
+}
+
+.bottom-menu span {
+    display: block; /* Memastikan teks di bawah ikon berada pada baris terpisah */
+}
