@@ -267,6 +267,7 @@ footer {
     display: flex; /* Menggunakan flexbox untuk menu */
     justify-content: space-around; /* Menyebarkan item menu secara merata */
     padding: 20px 0; /* Padding vertikal */
+    text-align: center;
 }
 
 .bottom-menu ul {
@@ -295,4 +296,7 @@ footer {
 
 .bottom-menu span {
     display: block; /* Memastikan teks di bawah ikon berada pada baris terpisah */
+}
+span {
+  text-align: center;
 }
